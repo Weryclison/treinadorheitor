@@ -1,0 +1,74 @@
+.font-1-a {
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 110%;
+}
+.font-1-b {
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 120%;
+}
+.font-1-c {
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 160%;
+}
+.font-1-d {
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 160%;
+}
+.font-1-e {
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 0.75rem;
+}
+
+@media (max-width: 750px) {
+  .font-1-a {
+    font-size: 1.5rem;
+  }
+  .font-1-b {
+    font-size: 1.5rem;
+  }
+}
+
+:root {
+  --azul: #205295;
+  --azul-1: #3468ad;
+  --cinza: #c5d1e0;
+  --cinza-1: #dae1eb;
+  --cinza-2: #ebeff5;
+  --cinza-3: #f5f7fa;
+  --escuro-1: #061d38;
+  --escuro: #0a2647;
+}
+
+.azul-1 {
+  color: var(--azul-1);
+}
+.azul {
+  color: var(--azul);
+}
+.cinza {
+  color: var(--cinza);
+}
+.cinza-1 {
+  color: var(--cinza-1);
+}
+.cinza-2 {
+  color: var(--cinza-2);
+}
+.cinza-3 {
+  color: var(--cinza-3);
+}
+.escuro {
+  color: var(--escuro);
+}
+.escuro-1 {
+  color: var(--escuro);
+}
