@@ -1,4 +1,6 @@
 export default function scrollSuave() {
+  const body = document.body;
+  const nav = document.getElementById("nav");
   const linksInterno = document.querySelectorAll("#menu li a");
   console.log(linksInterno);
   function scrolar(i) {
@@ -9,6 +11,8 @@ export default function scrollSuave() {
       behavior: "smooth",
       block: "start",
     });
+    body.classList.remove("menu-active");
+    nav.classList.remove("active");
   }
 
   linksInterno.forEach((item) => {
