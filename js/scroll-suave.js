@@ -1,5 +1,5 @@
 export default function scrollSuave() {
-  const linksInterno = document.querySelectorAll(".menu li a");
+  const linksInterno = document.querySelectorAll("#menu li a");
   console.log(linksInterno);
   function scrolar(i) {
     i.preventDefault();

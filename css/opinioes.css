@@ -38,6 +38,10 @@
 }
 .opiniao-caixa p:first-of-type {
   margin-bottom: 16px;
+  text-align: center;
+}
+.opiniao-caixa p {
+  text-align: center;
 }
 @media (max-width: 750px) {
   .grid-opiniao {

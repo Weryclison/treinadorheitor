@@ -5,6 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Treinador</title>
+  <meta name="description" content="Treinador fitness experiente com mais de 10 anos de experiência. Oferecemos treinamento personalizado para ajudá-lo a alcançar seus objetivos de fitness.">
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
@@ -22,7 +24,7 @@
         <ul id="menu">
           <li class="font-1-d escuro-1"><a href="#sobre">Sobre</a></li>
           <li class="font-1-d escuro-1"><a href="#formacao">Formação</a></li>
-          <li class="font-1-d escuro-1">Contato</li>
+          <li class="font-1-d escuro-1"><a href="#contato">Contato</a></li>
           <a href="#contato" class="botao">Contato</a>
         </ul>
       </nav>
@@ -53,7 +55,7 @@
       <img src="./img/foto-inicio.jpg" alt="">
     </div>
   </section>
-  <section class="sobre container">
+  <section class="sobre container" id="sobre">
     <div class="sobre-imagem">
       <img src="./img/foto-sobre.jpg" alt="">
     </div>
@@ -67,7 +69,7 @@
       <a href="#contato" class="botao-2">Entrar em contato</a>
     </div>
   </section>
-  <section class="formacao container">
+  <section class="formacao container" id="formacao">
     <h3 class="font-1-b escuro-1">Formação acadêmica & <br> Currículo profissional</h3>
     <div class="formacao-grid">
 
@@ -130,7 +132,7 @@
 
 
   </section>
-  <footer>
+  <footer id="contato">
     <section class="footer container">
       <div class="footer-conteudo">
         <h3 class="font-1-b cinza-3">Fale comigo</h3>
@@ -160,8 +162,7 @@
           </div>
           <div class="msg">
             <label class="font-1-d cinza-3" for="mensagem">Mensagem</label>
-            <textarea name="mensagem" placeholder="Escreva uma mensagem">
-            </textarea>
+            <textarea name="mensagem" placeholder="Escreva uma mensagem"></textarea>
           </div>
           <button class="botao">Enviar</button>
         </form>
