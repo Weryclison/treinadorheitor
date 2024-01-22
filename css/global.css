@@ -10,11 +10,14 @@ h4,
 h5,
 p,
 ul,
-dd {
+dd,
+textarea,
+input {
   margin: 0px;
 }
 
-ul {
+ul,
+textarea {
   padding: 0px;
   list-style: none;
 }

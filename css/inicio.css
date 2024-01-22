@@ -2,9 +2,10 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin-bottom: 80px;
+  background-color: var(--cinza-3);
 }
 .inicio h1 {
-  padding-top: 180px;
+  padding-top: 120px;
   margin-bottom: 20px;
 }
 .inicio-texto {
@@ -20,6 +21,7 @@
 .inicio-numeros {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  padding-bottom: 20px;
 }
 .caixinha-inicio:nth-child(2) {
   padding-right: 15px;
